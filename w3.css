@@ -1,4 +1,4 @@
-﻿/* W3.CSS 5.01 March 14 2025 by Jan Egil and Borge Refsnes */
+﻿/* W3.CSS 5.02 March 31 2025 by Jan Egil and Borge Refsnes */
 html {
   box-sizing: border-box;
 }
@@ -1240,6 +1240,12 @@ a {
 }
 .w3-hover-none:hover {
   box-shadow: none !important;
+}
+.w3-rtl {
+  direction: rtl;
+}
+.w3-ltr {
+  direction: ltr;
 }
 /* Colors */
 .w3-amber,
